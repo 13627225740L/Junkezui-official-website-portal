@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="js/distpicker.data.js"></script>
+		<script src="js/distpicker.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/new_file.css" />
+		<title>申请加盟</title>
+	</head>
+
+	<body>
+		<!--导航栏-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+   		   </button>
+					<a class="navbar-brand" href="#">君可醉</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html">首页<span class="sr-only">(current)</span></a>
+						</li>
+						<li>
+							<a href="about_us.html">关于君可醉 <span class="icon-bar"></span></a>
+						</li>
+						<li>
+							<a href="product_center.html">产品中心<span class="icon-bar"></span></a>
+						</li>
+						<li>
+							<a href="merit.html">合作优势</a>
+						</li>
+						<li class="active">
+							<a href="apply.html">申请加盟</a>
+						</li>
+						<li>
+							<a href="contact_us.html">联系我们</a>
+						</li>
+						<li>
+							<a href="news.html">新闻动态</a>
+						</li>
+
+					</ul>
+
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+		</nav>
+		<!--导航end -->
+
+		<img style="margin-top: 51px; width: 100%;" src="img/product.gif" />
+		<div class="alert alert-danger" role="alert">申请加盟</div>
+		<div class="container about_us">
+			<!--申请表单-->
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">公司邮箱</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="exampleInputName2" class="col-sm-2 control-label">公司名称</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="exampleInputName2" placeholder="请输入公司名称">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="phone_number" class="col-sm-2 control-label">公司电话</label>
+					<div class="col-sm-10">
+						<input type="=number" id="phone_number" class="form-control" placeholder="请输入电话号码">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="phone_number" class="col-sm-2 control-label">公司电话</label>
+					<div class="col-sm-10">
+						<input type="=number" id="phone_number" class="form-control" placeholder="请输入电话号码">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="apply_address" class="col-sm-2 control-label">公司地址</label>
+					<div class="container">
+						<div class="col-sm-10 address">
+							<form class="form-inline">
+								<div data-toggle="distpicker">
+									<div class="form-group">
+										<label class="sr-only" for="province1">Province</label>
+										<select class="form-control col-xs-10" id="province1"></select>
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="city1">City</label>
+										<select class="form-control" id="city1"></select>
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="district1">District</label>
+										<select class="form-control" id="district1"></select>
+									</div>
+
+								</div>
+								<textarea required="required" class="address_new_content" rows="3" cols="20" placeholder="详细地址：如道路、门牌号、小区、楼栋号、单元室等"></textarea>
+
+						</div>
+
+						</form>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10" style="text-align: center;">
+						<button type="submit" class="btn btn-default apply_submit">提交申请</button>
+					</div>
+				</div>
+
+			</form>
+			<!--申请表单end-->
+		</div>
+		<!--底部-->
+		<footer class="bs-docs-footer">
+			<div class="container">
+				<ul class="bs-docs-footer-links">
+					<li>
+						<a href="product_center.html">产品中心</a>
+					</li>
+					<li>
+						<a href="contact_us.html">联系我们</a>
+					</li>
+					<li>
+						<a href="apply.html">申请加盟</a>
+					</li>
+				</ul>
+
+				<p>Copyright@2019-2020</p>
+				<a rel="license" href="#" target="_blank">君可醉</a>
+			</div>
+		</footer>
+		<!--底部end-->
+	</body>
+
+</html>
